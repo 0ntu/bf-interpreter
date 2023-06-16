@@ -57,8 +57,8 @@ bool validInstruction(char c) {
 void jumpToMatchingClose() {
   int bracketCount = 1;
 
-  while ((*instructions) != ']' || bracketCount != 0) {
-    instructions = instructions + 1;
+  while (bracketCount != 0) {
+    ++instructions;
 
     if ((*instructions) == '[')
       ++bracketCount;
@@ -72,7 +72,7 @@ void jumpToMatchingOpen() {
   int bracketCount = 1;
 
   while ((*instructions) != '[' || bracketCount != 0) {
-    instructions = instructions - 1;
+    --instructions;
 
     if ((*instructions) == ']')
       ++bracketCount;
@@ -84,11 +84,11 @@ void jumpToMatchingOpen() {
 void interpret(char c) {
   switch (c) {
   case '>':
-    tape = tape + 1;
+    ++tape;
     break;
 
   case '<':
-    tape = tape - 1;
+    --tape;
     break;
 
   case '+':
@@ -155,7 +155,7 @@ int main(int argc, char *argv[]) {
     if(validInstruction(currentCmd)) {
       *instructions = currentCmd;
       if (debug) cout << "Added instruction: "<< *instructions << " @ " << &instructions << "\n";
-      instructions = instructions + 1;
+      ++instructions;
     }
   }
   //null character
@@ -170,7 +170,7 @@ int main(int argc, char *argv[]) {
     if (debug) cout << "interpreting: " << *instructions;
     interpret(*instructions);
     if (debug) cout << " | reg value: " << *tape << '\n';
-    instructions = instructions + 1;
+    ++instructions;
   }
 
   if (debug) cout << "\n\n----------\nEND OF INSTRUCTIONS\n----------" << '\n';
