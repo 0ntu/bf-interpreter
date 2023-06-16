@@ -153,7 +153,7 @@ been written as:
 
 
 
-\\/ Parts of **README.md** taken from \\/
+\\/ (Most of) **README.md** taken from \\/
 
 
 + https://github.com/brain-lang/brainfuck/blob/master/brainfuck.md
