@@ -2,7 +2,6 @@
 #include <iostream>
 #include <cstdint>
 using namespace std;
-void interpret(char c);
 
 // Simple Brainfuck Interpreter                                            |
 //
