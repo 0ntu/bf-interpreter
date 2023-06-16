@@ -1,4 +1,4 @@
-# Brainfuck Interpreter
+# A Crudely-Designed Brainfuck Interpreter
 
 Author:
 ```brainfuck
