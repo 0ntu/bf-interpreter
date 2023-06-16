@@ -1,4 +1,4 @@
-# Simple Brainfuck Interpreter
+# Brainfuck Interpreter written in C++
 
 Author:
 ```brainfuck
