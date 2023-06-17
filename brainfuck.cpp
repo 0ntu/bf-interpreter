@@ -71,7 +71,7 @@ void jumpToMatchingClose() {
 void jumpToMatchingOpen() {
   int bracketCount = 1;
 
-  while ((*instructions) != '[' || bracketCount != 0) {
+  while (bracketCount != 0) {
     --instructions;
 
     if ((*instructions) == ']')
