@@ -8,6 +8,8 @@
 
   </p>
 
+*[ascii.bf][ascii] by u/terjerox*
+
 Author:
 ```brainfuck
 +[----->+++<]>.++.+++++++++++.------------.[--->+<]>---.+[->+++<
@@ -181,3 +183,4 @@ Licensed under [GPL-v3][gplv3]
 [brainfuck-wiki]: https://en.wikipedia.org/wiki/Brainfuck
 [turing-machine]: https://en.wikipedia.org/wiki/Turing_machine
 [gplv3]: https://www.gnu.org/licenses/gpl-3.0.en.html
+[ascii]: https://www.reddit.com/r/brainfuck/comments/a3ujjf/ascii_art_of_a_knight_chess_piece/
