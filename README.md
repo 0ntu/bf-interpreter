@@ -1,5 +1,14 @@
 # A Crudely-Designed Brainfuck Interpreter
 
+
+<p align="center">
+  <img src="https://github.com/0ntu/bf-interpreter/blob/master/assets/example.gif?raw=true" alt="Demo image"></img>
+  <br/>
+  <a href="#"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white"></img></a>
+  <a href="http://opensource.org/license/gpl-3-0/"><img src="https://img.shields.io/github/license/0ntu/bf-interpreter?color=blue"></img></a>
+
+  </p>
+
 Author:
 ```brainfuck
 +[----->+++<]>.++.+++++++++++.------------.[--->+<]>---.+[->+++<
