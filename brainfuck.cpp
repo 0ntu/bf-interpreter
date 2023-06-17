@@ -128,6 +128,11 @@ void interpret(char c) {
   }
 }
 
+void printUsage() {
+  cout << '\n'
+  << "Usage: brainfuck [FILENAME]\n\n";
+}
+
 int main(int argc, char *argv[]) {
 
   //
@@ -137,7 +142,8 @@ int main(int argc, char *argv[]) {
 
 
   if (argc == 1) {
-    cerr << "No Input Files\n";
+    printUsage();
+    cerr << "Brainfuck: error: You must provide one file to interpret.\n";
     return 2;
   }
 
