@@ -1,6 +1,5 @@
 # A Crudely-Designed Brainfuck Interpreter
 
-
 <p align="center">
   <img src="https://github.com/0ntu/bf-interpreter/blob/master/assets/example.gif" alt="Demo image"></img>
   <br/>
