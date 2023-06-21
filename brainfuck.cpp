@@ -28,11 +28,8 @@ using namespace std;
 // + Debugging Operator [?] - prints value in number form;
 
 
-
-
-
-uint8_t *tape = new uint8_t[50000];
-char *instructions = new char[50000];
+uint8_t *tape = new uint8_t[50000] {};
+char *instructions = new char[50000] {};
 bool debug = false;
 
 bool validInstruction(char c) {
